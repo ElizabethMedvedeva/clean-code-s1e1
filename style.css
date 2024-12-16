@@ -18,8 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.guide-container { text-align: center;
-}
+  .guide-container {
+     text-align: center;
+  }
 }
 .main-container {
   display: block;
