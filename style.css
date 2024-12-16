@@ -13,7 +13,7 @@ body {
 .guide-container img {
   width: 100%;
 }
-.guide-container .more-info {
+.guide-container__more-info {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.main-container__task-row-wrapper {
   display: flex;
 }
 #incomplete-tasks, 
@@ -119,12 +119,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.delete-task img {
+button.list__delete-task img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-task img:hover {
+button.list__delete-task img:hover {
   transform: rotateZ(0);
 }
 
